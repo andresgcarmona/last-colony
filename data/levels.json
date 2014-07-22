@@ -1,0 +1,16 @@
+[{
+	"name": "Introduction",
+	"briefing": "In this level you will learn how to pan across the map.\n\nDon't worry! We will be implementing more features soon.",
+	"mapImage": "images/maps/level-one-debug-grid.png",
+	"startX": 4,
+	"startY": 4,
+	"items": [
+		{"type": "buildings", "name": "base", "initX": 11, "initY": 14, "team": "green", "life": 40},
+		{"type": "buildings", "name": "base", "initX": 16, "initY": 12, "team": "blue", "action": "construct"},
+		{"type": "buildings", "name": "starport", "initX": 18, "initY": 14, "team": "blue", "action": "stand"},
+		{"type": "buildings", "name": "starport", "initX": 21, "initY": 14, "team": "blue", "action": "open"},
+		{"type": "buildings", "name": "harvester", "initX": 20, "initY": 10, "team": "blue"},
+		{"type": "buildings", "name": "harvester", "initX": 22, "initY": 10, "team": "green", "action": "deploy"}
+	]
+
+}]
